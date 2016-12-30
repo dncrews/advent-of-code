@@ -1,13 +1,14 @@
 {
-  "extends": "eslint:recommended",
-  "parserOptions": {
-    "ecmaVersion": 6,
-  },
-  "globals": {
-    "console": false,
-    "require": false,
-  },
+  "extends": "vstg",
   "rules": {
-    "no-console": 0
+    "arrow-body-style": "off",
+    "arrow-parens": "off",
+    "newline-after-var": "off",
+    "newline-before-return": "off",
+    "no-cond-assign": "off",
+    "no-console": "off",
+    "no-extra-parens": "off",
+    "no-magic-numbers": "off",
+    "curly": "off"
   }
 }

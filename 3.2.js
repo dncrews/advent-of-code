@@ -1,3 +1,4 @@
+/* eslint-disable */
 
 const fs = require('fs');
 
@@ -11,17 +12,17 @@ const rows = input
 
 let good = 0;
 
-for (let i=0, l=rows.length; i<l; i++) {
+for (let i = 0, l = rows.length; i < l; i++) {
   const col = i % 3;
 
   const start = i - col;
   const end = start + 3;
   const these = rows.slice(start, end);
 
-  const triangle = [ these[0][col], these[1][col], these[2][col]];
+  const triangle = [ these[0][col], these[1][col], these[2][col] ];
   triangle.sort((a, b) => a - b);
 
   if (triangle[0] + triangle[1] > triangle[2]) good++;
 }
 
-console.info(`Good triangles: ${good}`);
+console.info(`Good triangles: ${ good }`);

@@ -1,0 +1,25 @@
+{
+  "name": "advent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.1.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dncrews/advent-of-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dncrews/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/dncrews/advent-of-code#readme",
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-vstg": "^1.1.1"
+  }
+}
